@@ -1,0 +1,10 @@
+header{
+    background-color: #207960;
+    color: #fff;
+    display: flex;
+}
+
+.main-title{
+    margin: 0;
+    text-wrap: nowrap;
+}

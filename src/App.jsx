@@ -1,10 +1,15 @@
 import './App.css'
+import Footer from './components/Footer/Footer.jsx'
+import Header from './components/Header/Header.jsx'
+import Main from './components/Main/Main.jsx'
 
 function App() {
 
   return (
     <>
-      <h1>Hernán y sus amigos</h1>
+      <Header />
+      <Main />
+      <Footer />
     </>
   )
 }
