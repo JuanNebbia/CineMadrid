@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import moviesArray from '../../mocks/movies.json'
-import Card from '../Card/Card.jsx'
-import './Main.css'
+import Card from '../../components/Card/Card.jsx'
+import './Home.css'
+import { Link } from 'react-router-dom'
 
-const Main = () => {
+const Home = () => {
     const [moviesInTheaters, setMoviesInTheaters] = useState([])
 
     useEffect(() => {
@@ -22,7 +23,9 @@ const Main = () => {
                 {
                     moviesInTheaters.map(({id, title, poster, release}) => {
                         return (
-                            <Card key={id} title={title} poster={poster} release={release}/>
+                            <Link to={`/movies/${id}`} key={id}>
+                                <Card title={title} poster={poster} release={release}/>
+                            </Link>
                         )
                     })
                 }
@@ -31,4 +34,4 @@ const Main = () => {
     )
 }
 
-export default Main
+export default Home

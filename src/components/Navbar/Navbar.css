@@ -22,3 +22,8 @@ nav{
 .navbar-list li:hover{
     color: #fff
 }
+
+a{
+    text-decoration: none;
+    color: #e4e4e4
+}

@@ -9,3 +9,7 @@ header{
     text-wrap: nowrap;
     color: #E50914;
 }
+
+.main-title-link{
+    text-decoration: none;
+}
