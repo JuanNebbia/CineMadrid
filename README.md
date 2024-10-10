@@ -11,6 +11,7 @@ Este proyecto forma parte del contenido de las clases prácticas del Bootcamp de
   - [📖 Avance de cada clase](#-avance-de-cada-clase)
     - [Clase 25/09: Organización de equipos y proyecto base](#clase-2509-organización-de-equipos-y-proyecto-base)
     - [Clase 02/10: React Router](#clase-0210-react-router)
+    - [Clase 09/10: Formularios y Contextos](#clase-0910-formularios-y-contextos)
 
 
 ## 🔧 Instalación
@@ -91,3 +92,17 @@ CineMadrid/
   * Se suma el componente **About** para la ruta */about* 
   * Se suma el componente **MovieDetail** para la ruta */movies/:movieId*, que cuenta con un parámetro de ruta. Este parámetro es obtenido con el uso del hook **useParams**  para encontrar los detalles de la película que cuenta con el id especificado
   * Se utiliza el componente **Link** para trabajar con enlaces, tanto en el navbar como para enlazar las tarjetas a sus vistas de detalle
+
+### Clase 09/10: Formularios y Contextos
+* **Objetivos:**
+  * Practicar la utilización de formularios
+  * Crear un contexto que gestione los datos del usuario autenticado
+  * Consumir el contexto en los diferentes componentes para renderizar contenido diferencial
+  * Controlar el acceso a rutas según el rol del usuario
+* **Avances**
+  * Se incorpora el componente **Login** con un formulario básico de ingreso, y validación de los datos del usuario.
+  * Se agregan los datos de usuarios ficticios con roles diferenciados en *mocks/users.json*
+  * Se crea el contexto **AuthContext**  en */context/AuthContext.jsx* para proveer a los demás componentes los datos del usuario y funciones de manejo de sesión.
+  * Se persisten datos en localStorage con los datos del usuario.
+  * Se suma la vista de **NewMovieForm** renderizado en la ruta */new-movie*
+  * Se crea el componente **ProtectedRoutes** para gestionar el acceso a vistas del administrador  
