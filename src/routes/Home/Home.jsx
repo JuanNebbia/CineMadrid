@@ -4,6 +4,7 @@ import Card from '../../components/Card/Card.jsx'
 import './Home.css'
 import { Link } from 'react-router-dom'
 import { useAuth } from '../../context/AuthContext.jsx'
+import MoviesList from '../../components/MoviesList/MoviesList.jsx'
 
 const Home = () => {
     const [moviesInTheaters, setMoviesInTheaters] = useState([])
@@ -20,12 +21,12 @@ const Home = () => {
 
     return (
         <div className="main-container">
-            <h2>Películas en cartelera</h2>
             {   user?.role === 'admin' &&
                 <Link to="/new-movie">
                     <button>Nueva película</button>
                 </Link>
             }
+            {/* <h2>Películas en cartelera</h2>
             <div className='in-theaters-container'>
                 {
                     moviesInTheaters.map(({id, title, poster, release}) => {
@@ -36,7 +37,8 @@ const Home = () => {
                         )
                     })
                 }
-            </div>
+            </div> */}
+            <MoviesList />
         </div>
     )
 }

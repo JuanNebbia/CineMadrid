@@ -12,6 +12,7 @@ Este proyecto forma parte del contenido de las clases prácticas del Bootcamp de
     - [Clase 25/09: Organización de equipos y proyecto base](#clase-2509-organización-de-equipos-y-proyecto-base)
     - [Clase 02/10: React Router](#clase-0210-react-router)
     - [Clase 09/10: Formularios y Contextos](#clase-0910-formularios-y-contextos)
+    - [Clase 23/10: Consumo de API externa](#clase-2310-consumo-de-api-externa)
 
 
 ## 🔧 Instalación
@@ -106,3 +107,15 @@ CineMadrid/
   * Se persisten datos en localStorage con los datos del usuario.
   * Se suma la vista de **NewMovieForm** renderizado en la ruta */new-movie*
   * Se crea el componente **ProtectedRoutes** para gestionar el acceso a vistas del administrador  
+
+  ### Clase 23/10: Consumo de API externa
+* **Objetivos:**
+  * Obtener datos mediante peticiones a APIs de terceros.
+  * Realizar peticiones fetch, configurando las opciones y controlando los errores.
+  * Controlar la asincronía mediante el estado de carga.
+
+* **Avances**
+  * Se incluye el componente **MoviesList** para desacoplar lógica de obtención y renderizado de datos.
+  * Se cambia la lectura de datos ficticios en json por la obtención de lista de películas mediante petición a la [API de The Movie Database](https://developer.themoviedb.org/).
+  * Se obtienen detalles de la pelicula mediante otra petición a la API.
+  * Se genera un estado *loading* para controlar la renderización asíncrona de elementos en los componentes que realizan peticiones: **MoviesList** y **MovieDetail**.
