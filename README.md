@@ -13,6 +13,7 @@ Este proyecto forma parte del contenido de las clases prácticas del Bootcamp de
     - [Clase 02/10: React Router](#clase-0210-react-router)
     - [Clase 09/10: Formularios y Contextos](#clase-0910-formularios-y-contextos)
     - [Clase 23/10: Consumo de API externa](#clase-2310-consumo-de-api-externa)
+    - [Clase 30/10: Variables de entorno y peticiones POST](#clase-3010-variables-de-entorno-y-peticiones-post)
 
 
 ## 🔧 Instalación
@@ -119,3 +120,18 @@ CineMadrid/
   * Se cambia la lectura de datos ficticios en json por la obtención de lista de películas mediante petición a la [API de The Movie Database](https://developer.themoviedb.org/).
   * Se obtienen detalles de la pelicula mediante otra petición a la API.
   * Se genera un estado *loading* para controlar la renderización asíncrona de elementos en los componentes que realizan peticiones: **MoviesList** y **MovieDetail**.
+  
+  ### Clase 30/10: Variables de entorno y peticiones POST
+* **Objetivos:**
+  * Añadir una capa de seguridad al sistema mediante la integración de variables de entorno.
+  * Realizar la carga de datos a una API externa a través de peticiones POST
+
+* **Avances**
+  * Se incluye un archivo *.env* que contiene las diferentes variables de entorno:
+    * **VITE_MOVIES_URL**: La ruta base a la que se realizan las peticiones
+    * **VITE_MOVIES_API_KEY**: El Bearer Token requerido para la autenticación con la API
+    * **VITE_MOVIES_LIST_ID**: El id de la lista personalizada del sitio
+  * Se crea el achivo *.env.example* para compartir los nombres de las variables de entorno requeridas de sistema
+  * Se añade el archivo *.env* dentro del archivo *.gitignore* a modo de evitar que se comparta información sensible por el repositorio remoto
+  * El listado de peliculas a mostrar ahora es consumido a partir de una lista personalizada, creada en la API.
+  * Se crea un formulario de búsqueda en el componente **NewMovieForm** que obtiene las películas por nombre, renderiza los resultados, y permite añadirlas a la lista personalizada al hacer doble-clic

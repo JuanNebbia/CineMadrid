@@ -1,0 +1,35 @@
+.new-movie-title, .new-movie-subtitle{
+    text-align: center;
+}
+
+.new-movie-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+    align-items: center;
+    margin: 4rem auto;
+}
+
+.new-movie-input{
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.new-movie-results{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.new-movie-card{
+    width: 10rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

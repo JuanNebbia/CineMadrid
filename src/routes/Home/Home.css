@@ -1,5 +1,8 @@
 .main-container{
     padding: 5rem 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h2{
@@ -13,4 +16,15 @@ h2{
     gap: 7%;
     row-gap: 2rem;
     margin-top: 1rem;
+}
+
+.new-movie-btn{
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1rem auto;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #141414;
 }
