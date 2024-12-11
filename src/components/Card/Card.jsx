@@ -2,7 +2,7 @@ import React from 'react'
 import './Card.css'
 
 const Card = ({ title, poster, release }) => {
-  const releaseYear = release.slice(0, 4)
+  const releaseYear = release?.slice(0, 4)
   return (
     <div className='card-container'>
       <div className="card-title-container">

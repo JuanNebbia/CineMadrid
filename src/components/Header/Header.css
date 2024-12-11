@@ -12,6 +12,8 @@ header{
 
 .main-title-link{
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 .welcome-tag{
