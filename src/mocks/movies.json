@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "poster": "/src/assets/movies/el-conde.jpg",
+    "poster": "/assets/movies/el-conde.jpg",
     "title": "El Conde",
     "category": "Película",
     "genres": ["Comedia, Fantasía"],
@@ -15,7 +15,7 @@
   },
   {
     "id": 2,
-    "poster": "/src/assets/movies/bardo.jpg",
+    "poster": "/assets/movies/bardo.jpg",
     "title": "Bardo",
     "category": "Película",
     "genres": ["Drama, Comedia"],
@@ -29,7 +29,7 @@
   },
   {
     "id": 3,
-    "poster": "/src/assets/movies/el-poder-del-perro.jpg",
+    "poster": "/assets/movies/el-poder-del-perro.jpg",
     "title": "El Poder del Perro",
     "category": "Película",
     "genres": ["Drama, Western"],
@@ -43,7 +43,7 @@
   },
   {
     "id": 4,
-    "poster": "/src/assets/movies/pienso-en-el-final.jpg",
+    "poster": "/assets/movies/pienso-en-el-final.jpg",
     "title": "Pienso en el Final",
     "category": "Película",
     "genres": ["Drama, Suspenso"],
@@ -57,7 +57,7 @@
   },
   {
     "id": 5,
-    "poster": "/src/assets/movies/get-back.jpg",
+    "poster": "/assets/movies/get-back.jpg",
     "title": "Get Back",
     "category": "Documental",
     "genres": ["Documental, Música"],
@@ -71,7 +71,7 @@
   },
   {
     "id": 6,
-    "poster": "/src/assets/movies/la-casa-lobo.jpg",
+    "poster": "/assets/movies/la-casa-lobo.jpg",
     "title": "La Casa Lobo",
     "category": "Película",
     "genres": ["Animación, Terror"],
@@ -85,7 +85,7 @@
   },
   {
     "id": 7,
-    "poster": "/src/assets/movies/la-isla-de-los-perros.jpg",
+    "poster": "/assets/movies/la-isla-de-los-perros.jpg",
     "title": "La Isla de los Perros",
     "category": "Película",
     "genres": ["Animación, Aventura"],
@@ -99,7 +99,7 @@
   },
   {
     "id": 8,
-    "poster": "/src/assets/movies/la-haine.jpg",
+    "poster": "/assets/movies/la-haine.jpg",
     "title": "La Haine",
     "category": "Película",
     "genres": ["Drama, Crimen"],
@@ -113,7 +113,7 @@
   },
   {
     "id": 9,
-    "poster": "/src/assets/movies/coherence.jpg",
+    "poster": "/assets/movies/coherence.jpg",
     "title": "Coherence",
     "category": "Película",
     "genres": ["Sci-Fi, Thriller"],
@@ -127,7 +127,7 @@
   },
   {
     "id": 10,
-    "poster": "/src/assets/movies/akira.jpg",
+    "poster": "/assets/movies/akira.jpg",
     "title": "Akira",
     "category": "Película",
     "genres": ["Animación, Sci-Fi"],
@@ -141,7 +141,7 @@
   },
   {
     "id": 11,
-    "poster": "/src/assets/movies/nausicaa.jpg",
+    "poster": "/assets/movies/nausicaa.jpg",
     "title": "Nausicaä en el Valle del Viento",
     "category": "Película",
     "genres": ["Animación, Aventura"],
@@ -155,7 +155,7 @@
   },
   {
     "id": 12,
-    "poster": "/src/assets/movies/el-planeta-salvaje.jpg",
+    "poster": "/assets/movies/el-planeta-salvaje.jpg",
     "title": "El Planeta Salvaje",
     "category": "Película",
     "genres": ["Animación, Sci-Fi"],
@@ -169,7 +169,7 @@
   },
   {
     "id": 13,
-    "poster": "/src/assets/movies/citizen-kane.jpg",
+    "poster": "/assets/movies/citizen-kane.jpg",
     "title": "Citizen Kane",
     "category": "Película",
     "genres": ["Drama, Misterio"],
@@ -183,7 +183,7 @@
   },
   {
     "id": 14,
-    "poster": "/src/assets/movies/tekkonkinkreet.jpg",
+    "poster": "/assets/movies/tekkonkinkreet.jpg",
     "title": "Tekkonkinkreet",
     "category": "Película",
     "genres": ["Animación, Acción"],
@@ -197,7 +197,7 @@
   },
   {
     "id": 15,
-    "poster": "/src/assets/movies/its-such-a-beautiful-day.jpg",
+    "poster": "/assets/movies/its-such-a-beautiful-day.jpg",
     "title": "It's Such a Beautiful Day",
     "category": "Película",
     "genres": ["Animación, Drama"],
@@ -211,7 +211,7 @@
   },
   {
     "id": 16,
-    "poster": "/src/assets/movies/birdman.jpg",
+    "poster": "/assets/movies/birdman.jpg",
     "title": "Birdman",
     "category": "Película",
     "genres": ["Drama, Comedia"],
@@ -225,7 +225,7 @@
   },
   {
     "id": 17,
-    "poster": "/src/assets/movies/la-langosta.jpg",
+    "poster": "/assets/movies/la-langosta.jpg",
     "title": "La Langosta",
     "category": "Película",
     "genres": ["Drama, Sci-Fi"],

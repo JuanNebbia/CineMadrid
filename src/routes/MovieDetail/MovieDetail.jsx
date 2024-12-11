@@ -35,7 +35,7 @@ const MovieDetail = () => {
                 <div className='movie-detail-container'>
                     <h2>{movieData?.title}</h2>
                     <div className="movie-detail-inner">
-                        <img src={new URL(movieData.poster, import.meta.url).href} alt={movieData?.title} />
+                        <img src={movieData?.poster} alt={movieData?.title} />
                         <div className="detail-data">
                             <div className="genres">{movieData.genres.map(genre => genre).join(', ')}</div>
                             <p className='movie-detail-summary'>{movieData.summary}</p>
